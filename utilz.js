@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 
-const types = [
+export const types = [
     {
         DRUH_HODNOCENI_ID: 'C6179',
         NAZEV: 'PPR 2',
