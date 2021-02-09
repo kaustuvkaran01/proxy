@@ -1,5 +1,5 @@
 import fetch from 'node-fetch'
-
+import types from '../../utilz.js'
 const fetchIndividualMarks = async (date, key) => {
     const data = await fetch(
         `https://aplikace.skolaonline.cz/SOLWebApi/api/v1/VypisHodnoceniStudent?datumOd=${date[0]}&datumDo=${date[1]}`,
